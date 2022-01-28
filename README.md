@@ -1,9 +1,9 @@
 # kenwood_xs8_sl16
  Arduino test sketch for Kenwood remote control XS8/SL16
 
+```
 for Kenwood KXF-W4010
 
-```
 CMD	        XS8	            SL16
 -----------------------------------------------------
 ff B 	 0100 0010 (0x42) 11111010 0010 0100 (0xFA24)

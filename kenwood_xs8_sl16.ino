@@ -89,7 +89,7 @@ void send_cmd(uint16_t cmd)
   Serial.print("Interface ");
   Serial.print(interface, DEC);
   Serial.print(" Command ");
-  Serial.print(cmd, DEC);
+  Serial.print(cmd, BIN);
   Serial.print(" / 0x");
   Serial.println(cmd, HEX);
 
@@ -103,7 +103,6 @@ void send_cmd(uint16_t cmd)
     //BUSY on
     digitalWrite(BUSY, HIGH);
     //start bit
-    //digitalWrite(DATA, LOW);
     delay(START_BIT_L);
     digitalWrite(DATA, HIGH);
     delay(START_BIT_H);
