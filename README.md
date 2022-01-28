@@ -1,5 +1,5 @@
 # kenwood_xs8_sl16
- Arduino test sketch for Kenwood remote control XS8/SL16
+ Arduino test sketch for Kenwood system remote control XS8/SL16
 
 ```
 for Kenwood KXF-W4010
